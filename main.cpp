@@ -33,7 +33,32 @@ int main() {
         cout << "Computer chose: " << computerChoice << endl;
     }
     
-    
-    
+    if (playerChoice == computerChoice) {
+        cout << "It's a tie!\n";
+    }
+    else if (playerChoice == "rock") {
+        if (computerChoice == "scissors") {
+            cout << "Rock destroys scissors, player wins!\n";
+        } else {
+            cout << "Paper covers rock, you lose!\n";
+        }
+    }
+    else if (playerChoice == "paper") {
+        if (computerChoice == "rock") {
+            cout << "Paper covers rock! You win!\n";
+        } else {
+            cout << "Scissors cut paper, you lose!";
+        }
+    }
 
+    else if (playerChoice == "scissors") {
+        if (computerChoice == "paper") {
+            cout << "Scissors cut paper! You win!\n";
+        } else {
+            cout << "Rock smashes scissors! You lose!\n";
+        }
+    }
+
+    return 0;
+    
 }
