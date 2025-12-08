@@ -1,3 +1,18 @@
 #include <iostream>
-
+#include <string>
+#include <cctype>
 using namespace std;
+
+int main() {
+    string playerChoice;
+    string choices[3] = {"rock","paper","scissors"};
+
+    cout << "Welcome to Rock,Paper,Scissors!\n";
+    cout << "Please choose one (Rock,Paper or Scissors): ";
+
+    cin >> playerChoice;
+
+
+        
+
+}
