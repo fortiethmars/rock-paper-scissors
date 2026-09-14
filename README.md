@@ -273,8 +273,6 @@ flowchart TD
 rock-paper-scissors/
 ├── CMakeLists.txt
 ├── README.md
-├── REVIEW_LOG.md
-├── BUILD_REPORT.md
 ├── .gitignore
 │
 ├── include/
